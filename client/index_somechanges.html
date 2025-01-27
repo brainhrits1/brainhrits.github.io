@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+  <head>
+
+    <title> BrainHR IT Solutions </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Loaded style sheets -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/owl.carousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/owl.carousel/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/ng-dialog/css/ngDialog.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/ng-dialog/css/ngDialog-theme-default.css">
+    <!-- Loaded java script files -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/ngSmoothScroll/lib/angular-smooth-scroll.js"></script>
+    <script src="bower_components/popper.js/dist/umd/popper.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/owl.carousel/dist/owl.carousel.js"></script>
+    <script src="bower_components/ng-dialog/js/ngDialog.js"></script>
+
+    <!-- User defined style sheets -->
+    <link rel="stylesheet" type="text/css" href="layout/layout.css">
+    <link rel="stylesheet" type="text/css" href="layout/animate.css">
+    <link rel="stylesheet" type="text/css" href="services/services.css">
+    
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    
+    <!-- User defined java script files -->
+    <script src="app.module.js"></script>
+    <script src="layout/layout.js"></script>
+    <script src="aboutUs/aboutUs.js"></script>
+    <script src="careers/careers.js"></script>
+    <script src="contactUs/contactUs.js"></script>
+    <script src="services/services.js"></script>
+    <script src="login/login.js"></script>
+
+
+  </head>
+
+  <body data-spy="scroll" data-target="#headerContentBar" data-offset="100">
+
+
+
+
+
+    <header class="bhr container-fluid headerHeight "  id="navTop">
+     <div class="container">
+      <social-nav-bar></social-nav-bar>
+
+        
+         
+        
+          <content-nav-bar></content-nav-bar>
+        
+        </div>
+
+
+          
+          
+        
+    
+    </header>
+
+      <!-- quotes slide show -->
+ <div class="sliderContainer">
+      <div class="owl-carousel owl-theme owl-loaded" style="font-style: italic;">
+        <div class="slider">
+          <img src="images/banner0.jpg" alt="Owl Image">
+        </div>
+        <div class="slider">
+          <img src="images/banner1.jpg" alt="Owl Image">
+          <div class="slide-text1">
+            Diverse Staff with the ability to deliver superior Solutions as a team
+            <br>
+          </div>
+        </div>
+        <div class="slider">
+          <img src="images/banner2.jpg" alt="Owl Image">
+          <div class="slide-text2">
+            Our recruitment process focuses
+            <br> on Technology that provides us with a unique
+            <br> advantage to offer best value add to concerns
+            <br> pertaining to all the technologies attached.</li>
+    
+          </div>
+        </div>
+        <div class="slider">
+          <img src="images/banner3.jpg" alt="Owl Image">
+        </div>
+      </div>
+
+
+
+   
+
+      
+
+      <!-- main page content -->
+      <div services id="navServices" class="panel1 bhrContent"></div>
+      <div about-us id="navAboutUs" class="panel2 bhrContent"></div>
+      <div careers id="navCareers" class="panel3 bhrContent"></div>
+      <div contact-us id="navContactUs" class="panel4 bhrContent"></div>
+    </div>
+   
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.939319255831!2d-74.33099744897399!3d40.56501725442996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b662198e7da7%3A0xd8e151beaac19386!2sBrainHR+IT+Solutions!5e0!3m2!1sen!2sus!4v1511831902926" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <!-- button to navigate to the top -->
+    <a id="bhrGoTopButton" href="" ng-click="bhrGoTop()" title="Go to top"
+    scroll-to="navTop" easing="easeInCubic" offset="90"> <i class="fa fa-chevron-up" aria-hidden="true"></i> </a>
+
+    <div index-footer></div>
+
+
+
+  </body>
+
+</html>

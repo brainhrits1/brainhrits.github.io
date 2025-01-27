@@ -1,0 +1,81 @@
+<!-- Page Content -->
+
+<div class="container">
+<!-- Contact Form -->
+<h1 class="text-center bhrHeader">Get in Touch</h1>
+  <div class="row">
+    <div class="col-md-6">
+			<ul style="list-style: none; padding-left: 0;">
+				<li style="padding-bottom: 15px;">
+          <i class="fa fa-map-marker"></i><span style="margin-left: 3px;">Our offices are at</span><br>
+          <span ng-class="usAdd">USA: 33 Wood Avenue South, Suite 402, Iselin NJ-08830, USA </span><br>
+          <span ng-class="indiaAdd">India: 44, Floor 1, Methanagar, M.M Colony, Chennai TN-600051, India</span><br>
+				</li>
+				<li style="padding-bottom: 15px;">
+					<i class="fa fa-phone"></i><span style="margin-left: 3px;">Call us at</span><br>
+					<span ng-class="usPhone">USA: +1 (201) 203-5406</span><br>
+          <span ng-class="indiaPhone">India: +91 44-25555850</span><br>
+				</li>
+				<li style="padding-bottom: 15px;">
+					<i class="fa fa-fax"></i>
+					<span>+1 (201) 203-5402</span>
+				</li>
+				<li style="padding-bottom: 15px;">
+					<i class="fa fa-envelope"></i>
+					<span>info@brainhritsolutions.com</span>
+				</li>
+				<li style="padding-bottom: 15px;">
+					<i class="fa fa-globe"></i>
+					<span>www.brainwavesolutions.com</span>
+				</li>
+			</ul>
+
+
+	</div>
+
+
+	<div class="col-md-6">
+    <!-- Response Sent through Ajax-->
+<div id="form-messages"></div>
+<!-- Response Sent through Ajax-->
+    
+   <!-- <form  method="post" id="contactForm" action="www.brainwaveitsolutions.com/contactUs/contact.php" >-->
+   <form  method="post" id="contactForm" action="contactUs/contact.php"> 
+        <div class="control-group form-group">
+          <div class="controls row">
+            <div class="col">
+                <input type="text" class="form-control" name="getfname" id="firstname" placeholder="First name" required data-validation-required-message="Please enter your name.">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" name="getlname" id="lastname" placeholder="Last name" required data-validation-required-message="Please enter your name.">
+            </div>
+          </div>
+        </div>
+        <div class="control-group form-group">
+            <div class="controls">
+                <input type="tel" class="form-control" name="getphone" id="phone" placeholder="Telephone number" required data-validation-required-message="Please enter your phone number.">
+            </div>
+        </div>
+        <div class="control-group form-group">
+            <div class="controls">
+                <input type="email" class="form-control" name="getemail" id="email" placeholder="Email address" required data-validation-required-message="Please enter your email address.">
+            </div>
+        </div>
+        <div class="control-group form-group">
+            <div class="controls">
+              <textarea class="form-control" id="message" name="getmessage" placeholder="Your message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+            </div>
+        </div>
+        <button type="submit" name='contactbtn' class="btn btn-warning">Send Message</button>
+    </form>
+  </div>
+  </div>
+</div>
+
+<!-- Loaded java script files -->
+<!-- <script src="ContactUs/jquery-2.1.0.min.js"></script>-->
+ <!-- User defined java script files -->
+ <script src="contactUs/app.js"></script> 
+
+
+

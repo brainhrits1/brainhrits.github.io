@@ -1,0 +1,34 @@
+.service-panel {
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  background:#ECECEA;
+  margin-left:4%;
+  margin-right:4%;
+  margin-bottom:10px;
+  border-width: 5px;
+  border-color: #ECECEA;
+  border-style: solid;
+}
+
+.service-image {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 10% auto;
+}
+
+.service-panel:hover {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+
+}
+
+.service-panel h6 {
+  text-transform:uppercase;
+      font-size: 0.8em;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

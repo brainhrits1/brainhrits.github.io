@@ -1,0 +1,80 @@
+
+<div class="container services">
+        <h1 class="text-center bhrHeader">Careers</h1>
+
+    <div class="row">
+       <div class="col-xs-12 col-sm-6  col-lg-6">
+            <a href="#career1"  data-toggle="modal" > Scrum Master <br>  <i class="fa fa-map-marker"></i> New Jersey, United States </a>
+       </div>
+
+       <div class="col-xs-12   col-sm-6 col-lg-6 ">
+            <a href="#career2"  data-toggle="modal"> Front End Web Developer <br> <i class="fa fa-map-marker"></i> New Jersey, United States </a>
+       </div>
+
+    </div>
+    <career1></career1>
+    <career2></career2>
+    <career3></career3>
+    <career4></career4>
+    <script type="text/javascript">
+
+        $(function () {
+            $("#myBtn").click(function () {
+                $('#myModal1').modal('hide');
+
+                $('#myModal1').one('hidden.bs.modal', function () {
+                  //  alert('The modal is about to be hidden.');
+                    $('#applyModal').modal('show');
+                    $("#myModal1.close").click();
+                });
+
+            });
+
+        });
+
+    </script>
+    <div class="modal fade" id="applyModal"  role="dialog">
+                <div class="modal-dialog">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                                <button type="button" class="btn  btn-danger" data-dismiss="modal">Close</button>
+                                                     <h4 class="modal-title">Send Mail  Requirements</h4>
+                                        </div>
+                                        <div class="modal-body">
+
+
+                                        </div>
+                                        <div class="modal-footer">
+
+                                                <button type="button" class="btn  btn-default"  data-dismiss="modal" >Close</button>
+                                        </div>
+                                </div>
+                </div>
+
+
+            </div>
+
+
+   <!--  <div class="row">
+                    <div class="col-3">
+                         <a href=""> Scrum Master <br>  <i class="fa fa-map-marker"></i> New Jersey, United States </a>
+                    </div>
+
+                    <div class="col-3">
+                         <a href=""> UI Developer <br> <i class="fa fa-map-marker"></i> New Jersey, United States </a>
+                    </div>
+
+                    <div class="col-3">
+                         <a href=""> BackEnd Developer <br> <i class="fa fa-map-marker"></i> New Jersey, United States </a>
+                    </div>
+
+                    <div class="col-3">
+                         <a href=""> Automation Quality Analyst <br>  <i class="fa fa-map-marker"></i>New Jersey, United States </a>
+                    </div>
+    </div>-->
+
+
+<h6 > Excited to work with us... but don’t see your position listed?
+        Let us know how you stand out from the crowd</h6>
+
+</div>
